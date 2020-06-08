@@ -13,8 +13,8 @@ class Application
 
     if num_1==num_2 && num_2==num_3
       resp.write "You Win"
-    #elsif num_1==num_2 || num_2==num_3
-     # resp.write "You still lose"
+    elsif num_1==num_2 || num_2==num_3
+      resp.write "You still lose, but you're close"
     else
       resp.write "You Lose"
     end
